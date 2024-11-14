@@ -1,0 +1,144 @@
+header{
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+body{
+    background-color: #8a5a44;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnmvFcDpJmg1gEqA_tZIbhUca9jAzIuvjUpg&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: rgb(250, 165, 8);
+    margin: 10px;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+    font-size: larger;
+}
+main{
+    display: flex;
+}
+nav{
+    display: flex;
+}
+.text{
+  margin: 10px;
+}
+  ul{
+    display: flex;
+    text-transform: uppercase;
+    text-align: center;
+    float: right;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: right;
+    margin-left: 80px;
+  } 
+  li a{
+    padding: 2rem;
+    text-decoration: none;
+    color: aliceblue;
+  } 
+  li a:hover{
+    border-bottom: 2px solid rgb(96, 151, 14);
+    border-radius: 20px;
+    color: aqua;
+  }
+  #logo{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    border: 2px solid rgb(69, 110, 6);
+    border-radius: 40px;
+  }
+  h3{
+    text-align: center;
+    color: cornsilk;
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+  section{
+    display: flex;
+    margin-right: 5px;
+
+  }
+  #items{
+    max-width: 100%;
+  }
+  .item{
+    padding: auto;
+    margin: auto;
+  }
+  #item{
+    padding: auto;
+    margin: auto;
+    border: 2px solid rgb(83, 134, 6);
+    border-radius: 20%;
+    max-width: 100%;
+    
+  }
+  .discount{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .discount{
+    color: rgb(245, 210, 164);
+    
+    
+  }
+  #p{
+    
+    border-radius: 90%;
+    color: red;
+
+
+  }
+  footer{
+    display: flex;
+  }
+  .log{
+    margin-left: 50%;
+    display: flex;
+    
+  }
+  h6{
+    color: rgb(235, 155, 7);
+    font-size: medium;
+    margin-left: 50px;
+    text-align: center;
+  }
+  @media  (max-width: 768px){
+
+    #items{
+      display: flex;
+      flex-direction: column;
+    }
+    #item{
+      max-width: 98%;
+      padding:0;
+      margin: 0;
+    }
+    main{
+      display: flex;
+      flex-direction: column;
+    }
+    nav{
+      flex-direction: column;
+    }
+    ul{
+      flex-direction: column;
+      margin: 20px;
+      padding: 10px;
+
+    }
+    main>nav{
+      width: 100%;
+    }
+    
+
+  }
+    
+  
